@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+input {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 400px;
+}
+
+#heading_area {
+    height:10%;
+}
+
+#msg_area {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.message {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.usermsg {
+    background-color: #eee;
+    color: dimgray;
+    float: right;
+}
+
+.botmsg {
+    background-color: #5e23dc;
+    color: white;
+    float: left;
+}
+
